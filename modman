@@ -1,0 +1,6 @@
+app/code/local/MobWeb/AddProductsToOrderAndShipmentGrid app/code/local/MobWeb/AddProductsToOrderAndShipmentGrid/
+
+app/etc/modules/MobWeb_AddProductsToOrderAndShipmentGrid.xml app/etc/modules/MobWeb_AddProductsToOrderAndShipmentGrid.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"
