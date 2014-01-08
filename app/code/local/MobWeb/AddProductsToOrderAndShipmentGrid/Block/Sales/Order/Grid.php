@@ -10,7 +10,7 @@ class MobWeb_AddProductsToOrderAndShipmentGrid_Block_Sales_Order_Grid extends Ma
         );
         $collection->getSelect()->group('main_table.entity_id');
 
-        parent::setCollection($collection);
+        return parent::setCollection($collection);
     }
 
     protected function _prepareColumns()
