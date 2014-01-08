@@ -1,5 +1,7 @@
 app/code/local/MobWeb/AddProductsToOrderAndShipmentGrid app/code/local/MobWeb/AddProductsToOrderAndShipmentGrid/
 
+app/code/local/Varien/Data/Collection/Db.php app/code/local/Varien/Data/Collection/Db.php
+
 app/etc/modules/MobWeb_AddProductsToOrderAndShipmentGrid.xml app/etc/modules/MobWeb_AddProductsToOrderAndShipmentGrid.xml
 
 # Clear the cache
